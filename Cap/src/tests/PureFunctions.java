@@ -31,16 +31,16 @@ public class PureFunctions {
     }
     public static void main(String[] args) {
 
-        int value_one = 5;
-        int value_two = 10;
+        int VALUE_ONE = 5;
+        int VALUE_TWO = 10;
 
-        System.out.println("Sum : " + sum(value_one, value_two));
+        System.out.println("Sum : " + sum(VALUE_ONE, VALUE_TWO));
 
-        System.out.println("Multiply : " + multiply(value_one, value_two));
+        System.out.println("Multiply : " + multiply(VALUE_ONE, VALUE_TWO));
 
-        System.out.println("Pure Subtraction : " + value_one + " - " + value_two  + " = " + pureSubtract(value_one, value_two));
+        System.out.println("Pure Subtraction : " + VALUE_ONE + " - " + VALUE_TWO  + " = " + pureSubtract(VALUE_ONE, VALUE_TWO));
 
-        System.out.println("Impure Subtraction : " + impureSubtract(value_one, value_two));
+        System.out.println("Impure Subtraction : " + impureSubtract(VALUE_ONE, VALUE_TWO));
 
     }
 }
