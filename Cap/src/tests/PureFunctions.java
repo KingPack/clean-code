@@ -34,9 +34,9 @@ public class PureFunctions {
         int VALUE_ONE = 5;
         int VALUE_TWO = 10;
 
-        System.out.println("Sum : " + sum(VALUE_ONE, VALUE_TWO));
+        System.out.println("Sum : " + VALUE_ONE + " + " + VALUE_TWO + " = " + sum(VALUE_ONE, VALUE_TWO));
 
-        System.out.println("Multiply : " + multiply(VALUE_ONE, VALUE_TWO));
+        System.out.println("Multiply : " + VALUE_ONE + " * " + VALUE_TWO + " = "  + multiply(VALUE_ONE, VALUE_TWO));
 
         System.out.println("Pure Subtraction : " + VALUE_ONE + " - " + VALUE_TWO  + " = " + pureSubtract(VALUE_ONE, VALUE_TWO));
 
